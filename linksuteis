@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Links</title>
+  <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+  <header class="header">
+    <div class="logo">
+      <img src="nassau.png" alt="Logo Nassau" style="max-width: 150px;">
+    </div>
+    <div>
+      <h1 class="header-title">Analise e Desenvolvimento de sistemas</h1>
+      <p class="header-subtitle">Turma B - Noite</p>
+    </div>
+  </header>
+
+  <section class="main-section">
+    <div class="header-subtitle">
+      <h2>Links Úteis</h2>
+	  <br>
+    </div>
+    <div class="links">
+      <div class="link">
+        <h3 class="link-title">
+          <a href="https://github.com/" target="_blank" style="color: #3498db;">Github</a>
+        </h3>
+      </div>
+      <div class="link">
+        <h3 class="link-title">
+          <a href="https://github.com/luong-komorebi/Markdown-Tutorial/blob/master/README_pt-BR.md" target="_blank" style="color: #3498db;">Tutorial Markdown</a>
+        </h3>
+      </div>
+ </div>
+    <div class="links">
+      <div class="link">
+        <h3 class="link-title">
+          <a href="https://www.dio.me/" target="_blank" style="color: #3498db;">DIO</a>
+        </h3>
+      </div>
+      <div class="link">
+        <h3 class="link-title">
+          <a href="https://github.com/luong-komorebi/Markdown-Tutorial/blob/master/README_pt-BR.md" target="_blank" style="color: #3498db;">Inspira Já</a>
+        </h3>
+      </div>
+    </div>
+	  <div class="links">
+      <div class="link">
+        <h3 class="link-title">
+          <a href="https://www.alura.com.br/" target="_blank" style="color: #3498db;">Alura</a>
+        </h3>
+      </div>
+      <div class="link">
+        <h3 class="link-title">
+          <a href="https://www.udemy.com/" target="_blank" style="color: #3498db;">Udamy</a>
+        </h3>
+      </div>
+    </div>
+		  <div class="links">
+      <div class="link">
+        <h3 class="link-title">
+          <a href="https://chat.openai.com/" target="_blank" style="color: #3498db;">Chat GPT</a>
+        </h3>
+      </div>
+      <div class="link">
+        <h3 class="link-title">
+          <a href="https://www.ev.org.br/" target="_blank" style="color: #3498db;">Fundação Bradesco</a>
+        </h3>
+      </div>
+    </div>
+	<div class="links">
+      <div class="link">
+        <h3 class="link-title">
+          <a href="https://www.ifms.edu.br/noticias/2023/iniciada-oferta-de-cursos-livres-gratuitos-para-2023" target="_blank" style="color: #3498db;">Cursos IFMS</a>
+        </h3>
+      </div>
+      <div class="link">
+        <h3 class="link-title">
+          <a href="https://educacao-executiva.fgv.br/cursos/gratuitos" target="_blank" style="color: #3498db;">FGV</a>
+        </h3>
+      </div>
+    </div>
+
+	
+  </section>
+
+  <footer class="footer">
+    <div class="footer-content">
+      <p class="quote">“Você nunca sabe que resultados virão da sua ação. Mas se você não fizer nada, não existirão.” <span class="author">Mahatma Gandhi</span></p>
+      <hr>
+      <p class="names">Dinah Barreto & Lais Milena - Estudantes ADS</p>
+    </div>
+  </footer>
+</body>
+</html>
