@@ -1,0 +1,115 @@
+/* Criação das Classes para serem aplicadas no HTML */
+body, h1, h2, h3, p {
+  margin: 0;
+  padding: 0;
+}
+
+/*criando a clase que fara parte do corpo do html*/
+.body { 
+  font-family: Arial, sans-serif; /* familia da fonte que ser usanda dentro do bady */
+  background-color: #f7f7f7; /* cor de fundo */
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Centraliza horizontalmente */
+  justify-content: center; /* Centraliza verticalmente */
+  height: 100vh; /* Faz com que a seção ocupe toda a altura da janela */
+}
+
+.header {
+  display: flex;
+  flex-direction: column; /* Alteração para centralizar verticalmente */
+  align-items: center; /* Centraliza verticalmente */
+  background-color: #3498db; /* Azul escuro */
+  color: white;
+  padding: 20px;
+}
+
+.logo img {
+  max-width: 100px;
+}
+
+.header-title {
+  text-align: center;
+  color: #001f3f; /* Azul marinho */
+  font-family: 'Courier New', monospace; /* Fonte estilo código */
+  font-size: 32px; /* Tamanho do título */
+}
+
+.header-title p {
+  font-size: 18px;
+  color: white; /* Cor branca */
+  font-family: 'Courier New', monospace; /* Fonte estilo código */
+}
+
+.main-section {
+  text-align: center;
+  padding: 20px;
+}
+
+.links {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+  text-align: left;
+}
+
+.link {
+  padding: 10px;
+  background-color: #ccd9e5; /* Azul mais claro */
+  border-radius: 5px;
+  text-align: center; /* Centraliza o texto horizontalmente */
+  transition: background-color 0.3s, color 0.3s; /* Transição suave para as propriedades de cor */
+}
+
+.link-title a {
+  text-decoration: none;
+  color: #007bff; /* Cor original */
+  transition: color 0.3s, text-decoration 0.3s;
+}
+
+.link:hover {
+  background-color: #001f3f; /* Cor azul escuro ao passar o mouse */
+  color: white; /* Cor branca ao passar o mouse */
+}
+
+.link-title a:hover {
+  color: #ff0000; /* Cor vermelha ao passar o mouse */
+  text-decoration: underline;
+}
+
+.footer {
+  text-align: center;
+  padding: 20px;
+  background-color: #3498db; /* Azul escuro */
+  color: white;
+}
+
+.footer-text {
+  font-size: 14px;
+}
+
+.quote {
+  font-style: italic;
+  font-size: 18px;
+  animation: move 20s linear infinite alternate;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+.author {
+  font-weight: bold;
+  color: black; /* Cor preta */
+  font-size: 14px; /* Tamanho menor */
+}
+
+@keyframes move {
+  0%, 100% {
+    transform: translateX(0);
+  }
+  50% {
+    transform: translateX(20%);
+  }
+}
