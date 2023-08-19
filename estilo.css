@@ -1,13 +1,13 @@
-/* Criação das Classes para serem aplicadas no HTML */
+/* Criação das classes para serem aplicadas no HTML */
 body, h1, h2, h3, p {
   margin: 0;
   padding: 0;
 }
 
-/*criando a clase que fara parte do corpo do html*/
+/* Criação da classe para fazer parte do corpo do HTML */
 .body { 
-  font-family: Arial, sans-serif; /* familia da fonte que ser usanda dentro do bady */
-  background-color: #f7f7f7; /* cor de fundo */
+  font-family: Arial, sans-serif; /* Família da fonte a ser usada dentro do body */
+  background-color: #f7f7f7; /* Cor de fundo */
 }
 
 .container {
@@ -18,7 +18,7 @@ body, h1, h2, h3, p {
   height: 100vh; /* Faz com que a seção ocupe toda a altura da janela */
 }
 
-.header {
+.cabecalho {
   display: flex;
   flex-direction: column; /* Alteração para centralizar verticalmente */
   align-items: center; /* Centraliza verticalmente */
@@ -31,20 +31,20 @@ body, h1, h2, h3, p {
   max-width: 100px;
 }
 
-.header-title {
+.titulo-cabecalho {
   text-align: center;
   color: #001f3f; /* Azul marinho */
   font-family: 'Courier New', monospace; /* Fonte estilo código */
   font-size: 32px; /* Tamanho do título */
 }
 
-.header-title p {
+.titulo-cabecalho p {
   font-size: 18px;
   color: white; /* Cor branca */
   font-family: 'Courier New', monospace; /* Fonte estilo código */
 }
 
-.main-section {
+.secao-principal {
   text-align: center;
   padding: 20px;
 }
@@ -64,7 +64,7 @@ body, h1, h2, h3, p {
   transition: background-color 0.3s, color 0.3s; /* Transição suave para as propriedades de cor */
 }
 
-.link-title a {
+.titulo-link a {
   text-decoration: none;
   color: #007bff; /* Cor original */
   transition: color 0.3s, text-decoration 0.3s;
@@ -75,37 +75,37 @@ body, h1, h2, h3, p {
   color: white; /* Cor branca ao passar o mouse */
 }
 
-.link-title a:hover {
+.titulo-link a:hover {
   color: #ff0000; /* Cor vermelha ao passar o mouse */
   text-decoration: underline;
 }
 
-.footer {
+.rodape {
   text-align: center;
   padding: 20px;
   background-color: #3498db; /* Azul escuro */
   color: white;
 }
 
-.footer-text {
+.rodape-texto {
   font-size: 14px;
 }
 
-.quote {
+.citacao {
   font-style: italic;
   font-size: 18px;
-  animation: move 20s linear infinite alternate;
+  animation: mover 20s linear infinite alternate;
   white-space: nowrap;
   overflow: hidden;
 }
 
-.author {
+.autor {
   font-weight: bold;
   color: black; /* Cor preta */
   font-size: 14px; /* Tamanho menor */
 }
 
-@keyframes move {
+@keyframes mover {
   0%, 100% {
     transform: translateX(0);
   }
